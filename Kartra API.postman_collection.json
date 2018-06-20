@@ -1,0 +1,282 @@
+{
+	"id": "dcc8472d-6b00-4a05-8326-d53c8324f404",
+	"name": "Kartra API",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"573d29c9-c893-4d58-bc96-797e07b2476e"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "573d29c9-c893-4d58-bc96-797e07b2476e",
+			"name": "11467_API",
+			"url": "https://anamaria.kartradev.com/api",
+			"description": "",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "HYCLtOdG",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "api_password",
+					"value": "vdzBPXpFeNEb",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "app_id",
+					"value": "FtbWAgrQnPce",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "actions[0][cmd]",
+					"value": "create_lead",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[0][cmd]",
+					"value": "search_lead",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[0][cmd]",
+					"value": "edit_lead",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "get_lead[email]",
+					"value": "hello5@genesisdigital.co",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "get_lead[id]",
+					"value": "44785",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lead[id]",
+					"value": "44824",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lead[email]",
+					"value": "hello8@genesisdigital.co",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lead[new_email]",
+					"value": "hello8@genesisdigital.co",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lead[first_name]",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lead[last_name]",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[1][cmd]",
+					"value": "subscribe_lead_to_list",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[1][list_name]",
+					"value": "list list",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[1][cmd]",
+					"value": "unsubscribe_lead_from_list",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[1][list_name]",
+					"value": "list list",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[2][cmd]",
+					"value": "assign_tag",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[2][tag_name]",
+					"value": "cancel",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[2][cmd]",
+					"value": "unassign_tag",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[2][tag_name]",
+					"value": "cancel",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[3][cmd]",
+					"value": "give_points_to_lead",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[3][points]",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[3][cmd]",
+					"value": "remove_points_from_lead",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[3][points]",
+					"value": "101",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][cmd]",
+					"value": "subscribe_lead_to_sequence_at_step",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][sequence_name]",
+					"value": "1 clone",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][step]",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][cmd]",
+					"value": "unsubscribe_lead_from_sequence",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][sequence_name]",
+					"value": "1 clone",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[0][cmd]",
+					"value": "resume_lead_in_sequence",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[sequence_name]",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[1][cmd]",
+					"value": "retrieve_account_tags",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[2][cmd]",
+					"value": "retrieve_account_lists",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[3][cmd]",
+					"value": "retrieve_account_sequences",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "actions[4][cmd]",
+					"value": "retrieve_account_pages",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
